@@ -1,0 +1,24 @@
+{
+    "name": "yt-summarization",
+    "version": "1.0.0",
+    "description": "",
+    "homepage": "https://github.com/mainak58/yt-video-summarization#readme",
+    "bugs": {
+        "url": "https://github.com/mainak58/yt-video-summarization/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mainak58/yt-video-summarization.git"
+    },
+    "license": "ISC",
+    "author": "",
+    "type": "commonjs",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "tsc -b && node dist/index.js"
+    },
+    "dependencies": {
+        "typescript": "^5.8.3"
+    }
+}
