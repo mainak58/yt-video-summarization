@@ -60,7 +60,7 @@ async function generateResponse(cacheName: any) {
 
 async function main() {
     try {
-        const videoId = "n8aA3DfiVuE";
+        const videoId = "video-id";
         const transcript = await getTranscript(videoId);
         const cache = await caching(transcript);
         await generateResponse(cache.name);
